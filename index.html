@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="viewport=device-width, initial-scale=1.0">
+		<link rel="icon" href="icon.png">
+		<title>Tetris</title>
+		<style>
+			body {
+				background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5) ), url('icon.png');
+			}
+			
+			main {
+				margin: 0;
+				padding: 0;
+				text-align: center;
+			}
+			
+			#bg_music {
+				text-align: left;
+				position: absolute;
+			}
+		</style>
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+		<script src="./script.js" defer></script>
+		<audio controls id="bg_music" loop>
+			<source src="./theme.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</head>
+	<body>
+	</body>
+</html>
